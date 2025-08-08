@@ -1,1 +1,3 @@
 node_modules
+# Except README.md
+!README.md
