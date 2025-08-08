@@ -1,0 +1,173 @@
+# Android Device Testing & Automation Commands
+
+## Main Flow (Step by Step)
+
+## 1. Device Screen Mirroring
+- `scrcpy`   # Android device ka screen apne computer par dekhne ke liye (mouse/keyboard se control bhi kar sakte ho)
+
+### 2. Appium Server Start
+- `appium`                # Appium server start karne ke liye
+- `npx appium`            # npx se Appium server start karo
+- `npx appium --session-override`           # Purane session ko override karne ke liye
+- `npx appium --session-override --log-level debug`   # Debug logs ke sath server start karo
+
+### 3. Device Connection Check
+- `adb devices`           # Connected devices check karo
+
+### 4. Appium Installation Verify
+- `appium-doctor`         # Appium installation verify karo
+- `npx appium-doctor --android`     # Sirf Android ke liye check karo
+
+### 5. Current Activity Check
+- `adb shell dumpsys activity activities | findstr mResumedActivity`   # Abhi kaunsa activity chal raha hai check karo
+
+### 6. Current Focused Window Check
+- `adb shell dumpsys window windows | findstr mCurrentFocus`   # Kaunsa window focus mein hai check karo
+  - Agar output blank aaye to:  
+    - `adb shell dumpsys window windows`   # Full output dekho
+    - Us output me manually 'mInputMethodTarget', 'mObscuringWindow' ya 'mCurrentFocus' search karo (Ctrl+F use karo).
+
+### 7. APK Install/Uninstall
+- `adb install <path-to-apk>`     # APK install karo device par
+- `adb uninstall <package-name>`  # App uninstall karo device se
+
+### 8. List Installed Packages
+- `adb shell pm list packages`    # Devadb -s l7ydgiirobfuypr8 shell pm list packages | findstr com.salesninjacrm
+ice par installed packages ki list dekho
+
+### 9. Start Specific Activity
+- `adb shell am start -n <package>/<activity>`   # Specific activity start karo
+  - Example: `adb shell am start -n com.salesninjacrm/com.salesninjacrm.MainActivity`
+
+### 10. Screenshot
+- `adb shell screencap -p /sdcard/screen.png`    # Device ka screenshot lo
+- `adb pull /sdcard/screen.png`                  # Screenshot computer par le aao
+
+### 11. Logcat Debugging
+- `adb logcat`                                  # Device ke logs dekho
+- `adb logcat | findstr <your-app-package>`      # Apne app ke logs filter karo
+
+### 12. Device Reboot
+- `adb reboot`                                  # Device ko reboot karo
+
+### 13. Clear App Data
+- `adb shell pm clear <package-name>`            # App ka data clear karo
+
+### 14. WDIO Test Suite Run
+- `npx wdio run wdio.conf.js`                    # WDIO test suite run karo (automation ke liye)
+
+---
+
+## Extra Commands & Details
+
+### Appium Advanced
+- `npx appium --session-override --log-level info`    # Info logs ke sath server start karo
+- `npx appium --session-override --log-level warn`    # Warning logs ke sath server start karo
+
+### ADB Advanced
+- `adb shell dumpsys window windows`   # Full window manager output (manual search ke liye)
+- `adb shell pm list packages -f`      # APK file path ke sath package list dekho
+- `adb shell am force-stop <package-name>` # App ko force stop karo
+
+### WDIO/Automation
+- `npx wdio config`   # WDIO config file generate karo
+- `npx wdio run <config-file>`   # Custom config file se test run karo
+
+
+### Install/Uninstall via adb:-
+- adb install "C:\Users\REDVision\Desktop\appium-js-tests\apps\app-release_16.apk"   (adb install <"file_path">)
+- adb uninstall com.salesninjacrm  (adb uninstall <package_name>)
+---
+Replace `<path-to-apk>`, `<package-name>`, and `<activity>` apne actual values se.
+
+
+
+📱 How to Connect Android Device via IP (WiFi ADB Connection)
+
+🕒 Generated on: 2025-07-25 08:12:36
+
+---
+
+## 🔧 Preconditions
+- USB Debugging must be enabled on the device.
+- Device and PC must be connected to the **same WiFi network**.
+- ADB must be installed (`adb version` to verify).
+
+---
+
+## 📌 Step-by-Step Commands
+
+### 1. Connect device via USB (initially)
+```bash
+adb devices
+```
+🔹 Confirm that your device (e.g., `J7GM659P9LU4EY6D`) appears as `device`.
+
+### 2. Check device IP address
+```bash
+adb -s <deviceId> shell ip route
+```
+🔹 Example:
+```bash
+adb -s J7GM659P9LU4EY6D shell ip route
+```
+🔹 Sample Output:
+```
+192.168.1.0/24 dev wlan0 proto kernel scope link src 192.168.1.147
+```
+✅ Device IP: **192.168.1.147**
+
+### 3. Enable TCP mode on port 5555
+```bash
+adb -s <deviceId> tcpip 5555
+```
+🔹 Example:
+```bash
+adb -s J7GM659P9LU4EY6D tcpip 5555
+```
+
+### 4. Disconnect USB (optional)
+
+### 5. Connect device via IP
+```bash
+adb connect <deviceIP>:5555
+```
+🔹 Example:
+```bash
+adb connect 192.168.1.147:5555
+```
+
+### 6. Verify connection
+```bash
+adb devices
+```
+Expected Output:
+```
+List of devices attached
+192.168.1.147:5555    device
+```
+
+---
+
+## 🔄 Optional: Reconnect / Disconnect
+
+### Disconnect USB device
+```bash
+adb disconnect <deviceId>
+```
+
+### Disconnect IP device
+```bash
+adb disconnect <deviceIP>:5555
+```
+
+adb -s <deviceId> shell pm clear <package_name>
+
+---
+
+## 💡 Tips
+- Use static IP on your Android device to avoid reconnection issues.
+- Always check current IP using `ip route` before connecting.
+- Useful for multi-device setups via WiFi for Appium.
+
+---
