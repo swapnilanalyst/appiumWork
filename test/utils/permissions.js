@@ -154,29 +154,33 @@ module.exports = async function handlePermissions(driver) {
     await appLabel.click();
     console.log('✅ Opened "salesninjacrm" overlay settings');
 
-    const toggleSwitch = await driver.$(
-      'android=new UiSelector().resourceId("android:id/switch_widget")'
-    );
-    await toggleSwitch.waitForExist({ timeout: 7000 });
+   let toggleSwitch;
+    try {
+      toggleSwitch = await driver.$(
+        'android=new UiSelector().resourceId("com.android.settings:id/switchWidget")'
+      );
+      if (!(await toggleSwitch.isExisting())) {
+        toggleSwitch = await driver.$(
+          'android=new UiSelector().resourceId("android:id/switch_widget")'
+        );
+      }
+    } catch {
+      toggleSwitch = await driver.$(
+        'android=new UiSelector().resourceId("android:id/switch_widget")'
+      );
+    }
 
-    // Check current status
+    await toggleSwitch.waitForExist({ timeout: 7000 });
     const isChecked = await toggleSwitch.getAttribute("checked");
     console.log("Toggle checked status:", isChecked);
 
-    // If OFF, try clickGesture instead of tap
     if (isChecked === "false") {
       const location = await toggleSwitch.getLocation();
       const size = await toggleSwitch.getSize();
-
       const centerX = location.x + size.width / 2;
       const centerY = location.y + size.height / 2;
 
-      // Use Appium 2 gesture to simulate precise tap
-      await driver.execute("mobile: clickGesture", {
-        x: centerX,
-        y: centerY,
-      });
-
+      await driver.execute("mobile: clickGesture", { x: centerX, y: centerY });
       console.log("✅ Toggled ON the overlay permission using clickGesture");
     } else {
       console.log("ℹ️ Overlay permission already enabled");
@@ -203,122 +207,3 @@ module.exports = async function handlePermissions(driver) {
     throw new Error("❌ Step 9 Failed: HomePage not found - " + err.message);
   }
 };
-
-
-
-
-// // This script handles all permission screens for the app after install/login
-// module.exports = async function handlePermissions(driver) {
-//   const allowAccessSelector = '~ALLOW ACCESS';
-//   const systemAllowSelector = 'com.android.permissioncontroller:id/permission_allow_button';
-
-//   // 📌 Helper to click 'ALLOW ACCESS' and system permission
-//   const clickAllow = async (label) => {
-//     try {
-//       console.log(`🔹 ${label}: Trying to grant permission...`);
-//       const allowBtn = await driver.$(allowAccessSelector);
-//       await allowBtn.waitForExist({ timeout: 5000 });
-//       await allowBtn.click();
-
-//       const systemBtn = await driver.$(
-//         `android=new UiSelector().resourceId("${systemAllowSelector}")`
-//       );
-//       if (await systemBtn.isDisplayed()) {
-//         await systemBtn.click();
-//         console.log(`✅ ${label}: Permission granted`);
-//       }
-//     } catch (err) {
-//       console.warn(`ℹ️ ${label}: Skipped or already granted`);
-//     }
-//   };
-
-//   // 🔁 Steps 1–5: Basic permissions
-//   await clickAllow("Call History");
-//   await clickAllow("Phone Number");
-//   await clickAllow("Contacts");
-//   await clickAllow("Call State");
-//   await clickAllow("Media Audio");
-
-//   // 📂 Step 6: Folder access via "USE THIS FOLDER"
-//   try {
-//     console.log("📂 Step 6: Folder Access");
-
-//     const useBtn = await driver.$(
-//       '//android.widget.Button[@resource-id="android:id/button1" and @text="USE THIS FOLDER"]'
-//     );
-//     await useBtn.waitForExist({ timeout: 10000 });
-//     await useBtn.click();
-
-//     const confirmBtn = await driver.$(
-//       '//android.widget.Button[@resource-id="android:id/button1" and @text="ALLOW"]'
-//     );
-//     await confirmBtn.waitForExist({ timeout: 10000 });
-//     await confirmBtn.click();
-
-//     console.log("✅ Folder access granted");
-//   } catch (err) {
-//     console.warn("⚠️ Folder access may already be granted");
-//   }
-
-//   // 🔔 Step 7: Notifications
-//   await clickAllow("Notification");
-
-//   // 🧩 Step 8: Display Over Other Apps
-//   try {
-//     console.log("🧩 Step 8: Display Over Other Apps");
-
-//     // Step 8.1: Scroll to app name
-//     await driver.$(
-//       'android=new UiScrollable(new UiSelector().scrollable(true)).scrollTextIntoView("salesninjacrm")'
-//     );
-
-//     const appEntry = await driver.$(
-//       'android=new UiSelector().text("salesninjacrm")'
-//     );
-//     await appEntry.waitForExist({ timeout: 10000 });
-//     await appEntry.click();
-
-//     const toggleSwitch = await driver.$(
-//       'android=new UiSelector().resourceId("android:id/switch_widget")'
-//     );
-//     await toggleSwitch.waitForExist({ timeout: 7000 });
-
-//     const isChecked = await toggleSwitch.getAttribute("checked");
-//     console.log("Toggle checked:", isChecked);
-
-//     if (isChecked === "false") {
-//       const { x, y } = await toggleSwitch.getLocation();
-//       const { width, height } = await toggleSwitch.getSize();
-//       const centerX = x + width / 2;
-//       const centerY = y + height / 2;
-
-//       await driver.execute("mobile: clickGesture", {
-//         x: centerX,
-//         y: centerY,
-//       });
-
-//       console.log("✅ Overlay permission toggled ON");
-//     } else {
-//       console.log("ℹ️ Overlay already ON");
-//     }
-
-//     await driver.back(); // Back to list
-//     await driver.back(); // Back to app
-//   } catch (err) {
-//     console.warn("⚠️ Overlay permission skipped or already granted");
-//   }
-
-//   // 🏠 Step 9: Check Home Page
-//   try {
-//     console.log("🏠 Step 9: Verifying HomePage");
-
-//     const homeLabel = await driver.$(
-//       'android=new UiSelector().text("Home")'
-//     );
-//     await homeLabel.waitForExist({ timeout: 10000 });
-
-//     console.log("🎉 HomePage loaded successfully");
-//   } catch (err) {
-//     throw new Error("❌ Step 9 Failed: HomePage not found - " + err.message);
-//   }
-// };

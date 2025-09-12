@@ -466,3 +466,574 @@
 [2025-08-07 17:58:39] INFO: ✅ Email entered
 [2025-08-07 17:58:43] INFO: ✅ Password entered
 [2025-08-07 17:58:45] INFO: ✅ Clicked on "CONTINUE" button
+[2025-08-20 13:51:32] INFO: 🚀 Starting test on device: kfxo4ttwqkw4vox8
+[2025-08-20 13:51:32] INFO: 🔐 Using email: nancy.rathore@redvisionglobal.com
+[2025-08-20 13:51:39] INFO: ✅ Email entered
+[2025-08-20 13:51:41] INFO: ✅ Password entered
+[2025-08-20 13:51:45] ERROR: ❌ Login test failed on kfxo4ttwqkw4vox8: WebDriverError: An unknown server-side error occurred while processing the command. Original error: Cannot invoke method public void androidx.test.uiautomator.GestureController.performGesture(androidx.test.uiautomator.PointerGesture[]) on object androidx.test.uiautomator.GestureController@790673 with parameters [[Landroidx.test.uiautomator.PointerGesture;@620a892] when running "element/00000000-0000-000a-ffff-ffff00000026/click" with method "POST"
+[2025-08-20 13:52:46] INFO: 🚀 Starting test on device: kfxo4ttwqkw4vox8
+[2025-08-20 13:52:46] INFO: 🔐 Using email: nancy.rathore@redvisionglobal.com
+[2025-08-20 13:52:53] INFO: ✅ Email entered
+[2025-08-20 13:52:55] INFO: ✅ Password entered
+[2025-08-20 13:52:58] ERROR: ❌ Login test failed on kfxo4ttwqkw4vox8: WebDriverError: An unknown server-side error occurred while processing the command. Original error: Cannot invoke method public void androidx.test.uiautomator.GestureController.performGesture(androidx.test.uiautomator.PointerGesture[]) on object androidx.test.uiautomator.GestureController@cdb7765 with parameters [[Landroidx.test.uiautomator.PointerGesture;@4a4b08c] when running "element/00000000-0000-0015-ffff-ffff00000026/click" with method "POST"
+[2025-08-20 16:04:09] INFO: 🚀 Starting test on device: 192.168.1.134:5555
+[2025-08-20 16:04:09] INFO: 🔐 Using email: swapnil.gupta@mailinator.com
+[2025-08-20 16:04:18] INFO: ✅ Email entered
+[2025-08-20 16:04:22] INFO: ✅ Password entered
+[2025-08-20 16:04:26] INFO: ✅ Clicked on "CONTINUE" button
+[2025-08-20 16:04:44] INFO: 🚀 Starting test on device: 192.168.1.11:5555
+[2025-08-20 16:04:44] INFO: 🔐 Using email: test.reverification@mailinator.com
+[2025-08-20 16:04:47] ERROR: ❌ Login test failed on 192.168.1.11:5555: WebDriverError: An unknown server-side error occurred while processing the command. Original error: 'POST /element' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details when running "element" with method "POST" and args "{"using":"xpath","value":"//android.widget.EditText[@text=\"Email address\"]"}"
+[2025-08-20 16:04:54] INFO: 🚀 Starting test on device: 192.168.1.11:5555
+[2025-08-20 16:04:54] INFO: 🔐 Using email: test.reverification@mailinator.com
+[2025-08-20 16:04:59] INFO: ✅ Email entered
+[2025-08-20 16:05:01] INFO: ✅ Password entered
+[2025-08-20 16:05:03] INFO: ✅ Clicked on "CONTINUE" button
+[2025-08-20 16:05:10] ERROR: ❌ Permission handling failed: ❌ Step 8 Failed: Overlay permission - element ("android=new UiSelector().resourceId("android:id/switch_widget")") still not existing after 7000ms
+[2025-08-20 16:05:10] ERROR: ❌ Login test failed on 192.168.1.134:5555: ❌ Step 8 Failed: Overlay permission - element ("android=new UiSelector().resourceId("android:id/switch_widget")") still not existing after 7000ms
+[2025-08-20 16:05:51] INFO: ✅ All permissions handled successfully.
+[2025-08-20 16:05:54] INFO: ✅ Login test completed on 192.168.1.11:5555
+[2025-08-20 17:10:32] INFO: 🚀 Starting test on device: 192.168.1.134:5555
+[2025-08-20 17:10:32] INFO: 🔐 Using email: swapnil.gupta@mailinator.com
+[2025-08-20 17:10:39] INFO: ✅ Email entered
+[2025-08-20 17:10:41] INFO: ✅ Password entered
+[2025-08-20 17:10:41] INFO: 🚀 Starting test on device: 192.168.1.11:5555
+[2025-08-20 17:10:41] INFO: 🔐 Using email: test.reverification@mailinator.com
+[2025-08-20 17:10:42] INFO: ✅ Clicked on "CONTINUE" button
+[2025-08-20 17:10:50] INFO: 🚀 Starting test on device: 192.168.1.11:5555
+[2025-08-20 17:10:50] INFO: 🔐 Using email: test.reverification@mailinator.com
+[2025-08-20 17:10:53] ERROR: ❌ Login test failed on 192.168.1.11:5555: waitUntil condition failed with the following reason: WebDriverError: An unknown server-side error occurred while processing the command. Original error: 'POST /element' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details when running "element" with method "POST" and args "{"using":"xpath","value":"//android.widget.EditText[@text=\"Email address\"]"}"
+[2025-08-20 17:10:54] INFO: ✅ Email entered
+[2025-08-20 17:10:55] INFO: ✅ Password entered
+[2025-08-20 17:10:57] INFO: ✅ Clicked on "CONTINUE" button
+[2025-08-20 17:11:02] ERROR: ❌ Permission handling failed: ❌ Step 1 Failed: Call history - waitUntil condition failed with the following reason: WebDriverError: An unknown server-side error occurred while processing the command. Original error: 'POST /elements' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details when running "elements" with method "POST" and args "{"using":"accessibility id","value":"ALLOW ACCESS"}"
+[2025-08-20 17:11:02] ERROR: ❌ Login test failed on 192.168.1.11:5555: ❌ Step 1 Failed: Call history - waitUntil condition failed with the following reason: WebDriverError: An unknown server-side error occurred while processing the command. Original error: 'POST /elements' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details when running "elements" with method "POST" and args "{"using":"accessibility id","value":"ALLOW ACCESS"}"
+[2025-08-20 17:11:22] ERROR: ❌ Permission handling failed: ❌ Step 8 Failed: Overlay permission - element ("android=new UiSelector().resourceId("android:id/switch_widget")") still not existing after 7000ms
+[2025-08-20 17:11:22] ERROR: ❌ Login test failed on 192.168.1.134:5555: ❌ Step 8 Failed: Overlay permission - element ("android=new UiSelector().resourceId("android:id/switch_widget")") still not existing after 7000ms
+[2025-08-20 17:16:37] INFO: 🚀 Starting test on device: 192.168.1.134:5555
+[2025-08-20 17:16:37] INFO: 🔐 Using email: swapnil.gupta@mailinator.com
+[2025-08-20 17:16:44] INFO: ✅ Email entered
+[2025-08-20 17:16:44] INFO: 🚀 Starting test on device: 192.168.1.11:5555
+[2025-08-20 17:16:44] INFO: 🔐 Using email: test.reverification@mailinator.com
+[2025-08-20 17:16:46] INFO: ✅ Password entered
+[2025-08-20 17:16:47] ERROR: ❌ Login test failed on 192.168.1.11:5555: WebDriverError: An unknown server-side error occurred while processing the command. Original error: 'POST /element' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details when running "element" with method "POST" and args "{"using":"xpath","value":"//android.widget.EditText[@text=\"Email address\"]"}"
+[2025-08-20 17:16:48] INFO: ✅ Clicked on "CONTINUE" button
+[2025-08-20 17:16:52] INFO: 🚀 Starting test on device: 192.168.1.11:5555
+[2025-08-20 17:16:52] INFO: 🔐 Using email: test.reverification@mailinator.com
+[2025-08-20 17:16:56] INFO: ✅ Email entered
+[2025-08-20 17:16:59] INFO: ✅ Password entered
+[2025-08-20 17:17:00] INFO: ✅ Clicked on "CONTINUE" button
+[2025-08-20 17:17:28] ERROR: ❌ Permission handling failed: ❌ Step 8 Failed: Overlay permission - element ("android=new UiSelector().resourceId("android:id/switch_widget")") still not existing after 7000ms
+[2025-08-20 17:17:28] ERROR: ❌ Login test failed on 192.168.1.134:5555: ❌ Step 8 Failed: Overlay permission - element ("android=new UiSelector().resourceId("android:id/switch_widget")") still not existing after 7000ms
+[2025-08-20 17:17:47] INFO: ✅ All permissions handled successfully.
+[2025-08-20 17:17:50] INFO: ✅ Login test completed on 192.168.1.11:5555
+[2025-08-20 17:19:24] INFO: 🚀 Starting test on device: 192.168.1.134:5555
+[2025-08-20 17:19:24] INFO: 🔐 Using email: swapnil.gupta@mailinator.com
+[2025-08-20 17:19:45] INFO: ✅ Email entered
+[2025-08-20 17:19:50] INFO: ✅ Password entered
+[2025-08-20 17:19:54] INFO: ✅ Clicked on "CONTINUE" button
+[2025-08-20 17:20:11] INFO: 🚀 Starting test on device: 192.168.1.11:5555
+[2025-08-20 17:20:11] INFO: 🔐 Using email: test.reverification@mailinator.com
+[2025-08-20 17:20:12] ERROR: ❌ Login test failed on 192.168.1.11:5555: WebDriverError: An unknown server-side error occurred while processing the command. Original error: 'POST /element' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details when running "element" with method "POST" and args "{"using":"xpath","value":"//android.widget.EditText[@text=\"Email address\"]"}"
+[2025-08-20 17:20:28] INFO: 🚀 Starting test on device: 192.168.1.11:5555
+[2025-08-20 17:20:28] INFO: 🔐 Using email: test.reverification@mailinator.com
+[2025-08-20 17:20:33] INFO: ✅ Email entered
+[2025-08-20 17:20:36] INFO: ✅ Password entered
+[2025-08-20 17:20:38] INFO: ✅ Clicked on "CONTINUE" button
+[2025-08-20 17:21:24] INFO: ✅ All permissions handled successfully.
+[2025-08-20 17:21:27] INFO: ✅ Login test completed on 192.168.1.11:5555
+[2025-08-20 18:40:05] INFO: 🚀 Starting test on device: 192.168.1.134:5555
+[2025-08-20 18:40:05] INFO: 🔐 Using email: swapnil.gupta@mailinator.com
+[2025-08-20 18:40:13] INFO: 🚀 Starting test on device: 192.168.1.11:5555
+[2025-08-20 18:40:13] INFO: 🔐 Using email: test.reverification@mailinator.com
+[2025-08-20 18:40:15] INFO: 🚀 Starting test on device: 192.168.1.129:5555
+[2025-08-20 18:40:15] INFO: 🔐 Using email: swapnil.gupta@redvisionglobal.com
+[2025-08-20 18:40:17] ERROR: ❌ Login test failed on 192.168.1.134:5555: element ("//android.widget.EditText[@text="Email address"]") still not displayed after 10000ms
+[2025-08-20 18:40:22] INFO: ✅ Email entered
+[2025-08-20 18:40:23] INFO: ✅ Password entered
+[2025-08-20 18:40:24] ERROR: ❌ Login test failed on 192.168.1.11:5555: element ("//android.widget.EditText[@text="Email address"]") still not displayed after 10000ms
+[2025-08-20 18:40:25] INFO: ✅ Clicked on "CONTINUE" button
+[2025-08-20 18:41:01] ERROR: ❌ Permission handling failed: ❌ Step 6 Failed: Folder access permission - Can't call elementClick on element with selector "//android.widget.Button[@resource-id="android:id/button1" and @text="ALLOW"]" because element wasn't found
+[2025-08-20 18:41:01] ERROR: ❌ Login test failed on 192.168.1.129:5555: ❌ Step 6 Failed: Folder access permission - Can't call elementClick on element with selector "//android.widget.Button[@resource-id="android:id/button1" and @text="ALLOW"]" because element wasn't found
+[2025-08-20 18:42:48] INFO: 🚀 Starting test on device: 192.168.1.129:5555
+[2025-08-20 18:42:49] INFO: 🔐 Using email: swapnil.gupta@redvisionglobal.com
+[2025-08-20 18:42:50] INFO: 🚀 Starting test on device: 192.168.1.134:5555
+[2025-08-20 18:42:50] INFO: 🔐 Using email: swapnil.gupta@mailinator.com
+[2025-08-20 18:42:51] INFO: 🚀 Starting test on device: 192.168.1.11:5555
+[2025-08-20 18:42:51] INFO: 🔐 Using email: test.reverification@mailinator.com
+[2025-08-20 18:42:55] INFO: ✅ Email entered
+[2025-08-20 18:42:56] INFO: ✅ Email entered
+[2025-08-20 18:42:58] INFO: ✅ Password entered
+[2025-08-20 18:42:58] INFO: ✅ Email entered
+[2025-08-20 18:42:58] INFO: ✅ Password entered
+[2025-08-20 18:42:59] INFO: ✅ Clicked on "CONTINUE" button
+[2025-08-20 18:42:59] INFO: ✅ Clicked on "CONTINUE" button
+[2025-08-20 18:43:01] INFO: ✅ Password entered
+[2025-08-20 18:43:02] INFO: ✅ Clicked on "CONTINUE" button
+[2025-08-20 18:43:38] ERROR: ❌ Permission handling failed: ❌ Step 8 Failed: Overlay permission - element ("android=new UiSelector().resourceId("android:id/switch_widget")") still not existing after 7000ms
+[2025-08-20 18:43:38] ERROR: ❌ Login test failed on 192.168.1.134:5555: ❌ Step 8 Failed: Overlay permission - element ("android=new UiSelector().resourceId("android:id/switch_widget")") still not existing after 7000ms
+[2025-08-20 18:43:42] INFO: ✅ All permissions handled successfully.
+[2025-08-20 18:43:45] INFO: ✅ Login test completed on 192.168.1.129:5555
+[2025-08-20 18:43:47] INFO: ✅ All permissions handled successfully.
+[2025-08-20 18:43:50] INFO: ✅ Login test completed on 192.168.1.11:5555
+[2025-08-20 18:53:09] INFO: 🚀 Starting test on device: 192.168.1.11:5555
+[2025-08-20 18:53:09] INFO: 🔐 Using email: test.reverification@mailinator.com
+[2025-08-20 18:53:10] INFO: 🚀 Starting test on device: 192.168.1.129:5555
+[2025-08-20 18:53:10] INFO: 🔐 Using email: swapnil.gupta@redvisionglobal.com
+[2025-08-20 18:53:16] INFO: ✅ Email entered
+[2025-08-20 18:53:17] INFO: ✅ Email entered
+[2025-08-20 18:53:19] INFO: ✅ Password entered
+[2025-08-20 18:53:19] INFO: ✅ Password entered
+[2025-08-20 18:53:20] INFO: ✅ Clicked on "CONTINUE" button
+[2025-08-20 18:53:20] INFO: ✅ Clicked on "CONTINUE" button
+[2025-08-20 18:54:04] INFO: ✅ All permissions handled successfully.
+[2025-08-20 18:54:05] INFO: ✅ All permissions handled successfully.
+[2025-08-20 18:54:07] INFO: ✅ Login test completed on 192.168.1.129:5555
+[2025-08-20 18:54:08] INFO: ✅ Login test completed on 192.168.1.11:5555
+[2025-08-20 18:55:33] INFO: 🚀 Starting test on device: 192.168.1.132:5555
+[2025-08-20 18:55:33] INFO: 🔐 Using email: swapnil.gupta@mailinator.com
+[2025-08-20 18:55:34] INFO: 🚀 Starting test on device: 192.168.1.129:5555
+[2025-08-20 18:55:34] INFO: 🔐 Using email: swapnil.gupta@redvisionglobal.com
+[2025-08-20 18:55:36] INFO: 🚀 Starting test on device: 192.168.1.11:5555
+[2025-08-20 18:55:36] INFO: 🔐 Using email: test.reverification@mailinator.com
+[2025-08-20 18:55:37] INFO: ✅ Email entered
+[2025-08-20 18:55:39] INFO: ✅ Email entered
+[2025-08-20 18:55:39] INFO: ✅ Password entered
+[2025-08-20 18:55:40] INFO: ✅ Email entered
+[2025-08-20 18:55:41] INFO: ✅ Clicked on "CONTINUE" button
+[2025-08-20 18:55:42] INFO: ✅ Password entered
+[2025-08-20 18:55:42] INFO: ✅ Password entered
+[2025-08-20 18:55:43] INFO: ✅ Clicked on "CONTINUE" button
+[2025-08-20 18:55:44] INFO: ✅ Clicked on "CONTINUE" button
+[2025-08-20 18:56:33] INFO: ✅ All permissions handled successfully.
+[2025-08-20 18:56:33] INFO: ✅ All permissions handled successfully.
+[2025-08-20 18:56:35] INFO: ✅ All permissions handled successfully.
+[2025-08-20 19:00:09] INFO: 🚀 Starting test on device: 192.168.1.134:5555
+[2025-08-20 19:00:09] INFO: 🔐 Using email: pulkit.soni@redvisionglobal.com
+[2025-08-20 19:00:16] INFO: 🚀 Starting test on device: 192.168.1.129:5555
+[2025-08-20 19:00:16] INFO: 🔐 Using email: swapnil.gupta@redvisionglobal.com
+[2025-08-20 19:00:16] INFO: ✅ Email entered
+[2025-08-20 19:00:16] INFO: 🚀 Starting test on device: 192.168.1.11:5555
+[2025-08-20 19:00:16] INFO: 🔐 Using email: test.reverification@mailinator.com
+[2025-08-20 19:00:19] INFO: ✅ Password entered
+[2025-08-20 19:00:21] INFO: ✅ Clicked on "CONTINUE" button
+[2025-08-20 19:00:24] INFO: ✅ Email entered
+[2025-08-20 19:00:25] INFO: 🚀 Starting test on device: 192.168.1.132:5555
+[2025-08-20 19:00:25] INFO: 🔐 Using email: swapnil.gupta@mailinator.com
+[2025-08-20 19:00:25] INFO: ✅ Email entered
+[2025-08-20 19:00:27] INFO: ✅ Password entered
+[2025-08-20 19:00:27] INFO: ✅ Password entered
+[2025-08-20 19:00:28] INFO: ✅ Clicked on "CONTINUE" button
+[2025-08-20 19:00:29] INFO: ✅ Clicked on "CONTINUE" button
+[2025-08-20 19:00:32] INFO: ✅ Email entered
+[2025-08-20 19:00:34] INFO: ✅ Password entered
+[2025-08-20 19:00:36] INFO: ✅ Clicked on "CONTINUE" button
+[2025-08-20 19:01:02] ERROR: ❌ Permission handling failed: ❌ Step 8 Failed: Overlay permission - element ("android=new UiSelector().resourceId("android:id/switch_widget")") still not existing after 7000ms
+[2025-08-20 19:01:02] ERROR: ❌ Login test failed on 192.168.1.134:5555: ❌ Step 8 Failed: Overlay permission - element ("android=new UiSelector().resourceId("android:id/switch_widget")") still not existing after 7000ms
+[2025-08-20 19:01:13] INFO: ✅ All permissions handled successfully.
+[2025-08-20 19:01:14] INFO: ✅ All permissions handled successfully.
+[2025-08-20 19:01:16] INFO: ✅ Login test completed on 192.168.1.11:5555
+[2025-08-21 11:58:05] INFO: 🚀 Starting test on device: 192.168.1.132:5555
+[2025-08-21 11:58:05] INFO: 🔐 Using email: test.reverification@mailinator.com
+[2025-08-21 11:58:12] INFO: ✅ Email entered
+[2025-08-21 11:58:14] INFO: ✅ Password entered
+[2025-08-21 11:58:16] INFO: ✅ Clicked on "CONTINUE" button
+[2025-08-21 12:01:57] INFO: 🚀 Starting test on device: 192.168.1.87:5555
+[2025-08-21 12:01:57] INFO: 🔐 Using email: pulkit.soni@redvisionglobal.com
+[2025-08-21 12:01:57] INFO: 🚀 Starting test on device: 192.168.1.135:5555
+[2025-08-21 12:01:57] INFO: 🔐 Using email: swapnil.gupta@mailinator.com
+[2025-08-21 12:01:59] INFO: 🚀 Starting test on device: 192.168.1.132:5555
+[2025-08-21 12:01:59] INFO: 🔐 Using email: test.reverification@mailinator.com
+[2025-08-21 12:02:00] INFO: 🚀 Starting test on device: 192.168.1.134:5555
+[2025-08-21 12:02:00] INFO: 🔐 Using email: swapnil.gupta@redvisionglobal.com
+[2025-08-21 12:02:03] INFO: ✅ Email entered
+[2025-08-21 12:02:05] INFO: ✅ Email entered
+[2025-08-21 12:02:06] INFO: ✅ Password entered
+[2025-08-21 12:02:06] INFO: ✅ Email entered
+[2025-08-21 12:02:07] INFO: ✅ Password entered
+[2025-08-21 12:02:07] INFO: ✅ Clicked on "CONTINUE" button
+[2025-08-21 12:02:07] INFO: ✅ Email entered
+[2025-08-21 12:02:09] INFO: ✅ Password entered
+[2025-08-21 12:02:09] INFO: ✅ Clicked on "CONTINUE" button
+[2025-08-21 12:02:09] INFO: ✅ Password entered
+[2025-08-21 12:02:10] INFO: ✅ Clicked on "CONTINUE" button
+[2025-08-21 12:02:11] INFO: ✅ Clicked on "CONTINUE" button
+[2025-08-21 12:02:46] ERROR: ❌ Permission handling failed: ❌ Step 8 Failed: Overlay permission - element ("android=new UiSelector().resourceId("android:id/switch_widget")") still not existing after 7000ms
+[2025-08-21 12:02:46] ERROR: ❌ Login test failed on 192.168.1.87:5555: ❌ Step 8 Failed: Overlay permission - element ("android=new UiSelector().resourceId("android:id/switch_widget")") still not existing after 7000ms
+[2025-08-21 12:02:55] INFO: ✅ All permissions handled successfully.
+[2025-08-21 12:02:58] INFO: ✅ Login test completed on 192.168.1.132:5555
+[2025-08-21 12:02:59] INFO: ✅ All permissions handled successfully.
+[2025-08-21 12:54:20] INFO: 🚀 Starting test on device: 192.168.1.135:5555
+[2025-08-21 12:54:20] INFO: 🔐 Using email: swapnil.gupta@mailinator.com
+[2025-08-21 12:54:20] INFO: 🚀 Starting test on device: 192.168.1.87:5555
+[2025-08-21 12:54:20] INFO: 🔐 Using email: pulkit.soni@redvisionglobal.com
+[2025-08-21 12:54:23] INFO: 🚀 Starting test on device: 192.168.1.134:5555
+[2025-08-21 12:54:23] INFO: 🔐 Using email: swapnil.gupta@redvisionglobal.com
+[2025-08-21 12:54:29] INFO: ✅ Email entered
+[2025-08-21 12:54:32] INFO: 🚀 Starting test on device: 192.168.1.132:5555
+[2025-08-21 12:54:32] INFO: 🔐 Using email: test.reverification@mailinator.com
+[2025-08-21 12:54:32] INFO: ✅ Password entered
+[2025-08-21 12:54:33] INFO: ✅ Email entered
+[2025-08-21 12:54:35] INFO: ✅ Clicked on "CONTINUE" button
+[2025-08-21 12:54:38] INFO: ✅ Password entered
+[2025-08-21 12:54:40] INFO: ✅ Email entered
+[2025-08-21 12:54:40] INFO: ✅ Clicked on "CONTINUE" button
+[2025-08-21 12:54:40] INFO: ✅ Email entered
+[2025-08-21 12:54:42] INFO: ✅ Password entered
+[2025-08-21 12:54:43] INFO: ✅ Password entered
+[2025-08-21 12:54:46] INFO: ✅ Clicked on "CONTINUE" button
+[2025-08-21 12:54:46] INFO: ✅ Clicked on "CONTINUE" button
+[2025-08-21 12:55:16] ERROR: ❌ Permission handling failed: ❌ Step 6 Failed: Folder access permission - element ("//android.widget.Button[@resource-id="android:id/button1" and @text="USE THIS FOLDER"]") still not existing after 10000ms
+[2025-08-21 12:55:16] ERROR: ❌ Login test failed on 192.168.1.132:5555: ❌ Step 6 Failed: Folder access permission - element ("//android.widget.Button[@resource-id="android:id/button1" and @text="USE THIS FOLDER"]") still not existing after 10000ms
+[2025-08-21 12:55:21] ERROR: ❌ Permission handling failed: ❌ Step 8 Failed: Overlay permission - waitUntil condition failed with the following reason: WebDriverError: Request failed with error code UND_ERR_DESTROYED when running "elements" with method "POST" and args "{"using":"-android uiautomator","value":"new UiSelector().resourceId(\"android:id/switch_widget\")"}"
+[2025-08-21 12:55:21] ERROR: ❌ Login test failed on 192.168.1.87:5555: ❌ Step 8 Failed: Overlay permission - waitUntil condition failed with the following reason: WebDriverError: Request failed with error code UND_ERR_DESTROYED when running "elements" with method "POST" and args "{"using":"-android uiautomator","value":"new UiSelector().resourceId(\"android:id/switch_widget\")"}"
+[2025-08-21 12:57:29] INFO: 🚀 Starting test on device: 192.168.1.135:5555
+[2025-08-21 12:57:29] INFO: 🔐 Using email: swapnil.gupta@mailinator.com
+[2025-08-21 12:57:30] INFO: 🚀 Starting test on device: 192.168.1.134:5555
+[2025-08-21 12:57:30] INFO: 🔐 Using email: swapnil.gupta@redvisionglobal.com
+[2025-08-21 12:57:32] INFO: 🚀 Starting test on device: 192.168.1.87:5555
+[2025-08-21 12:57:32] INFO: 🔐 Using email: pulkit.soni@redvisionglobal.com
+[2025-08-21 12:57:35] INFO: 🚀 Starting test on device: 192.168.1.132:5555
+[2025-08-21 12:57:35] INFO: 🔐 Using email: test.reverification@mailinator.com
+[2025-08-21 12:57:37] INFO: ✅ Email entered
+[2025-08-21 12:57:39] INFO: ✅ Email entered
+[2025-08-21 12:57:39] INFO: ✅ Email entered
+[2025-08-21 12:57:40] INFO: ✅ Password entered
+[2025-08-21 12:57:41] INFO: ✅ Clicked on "CONTINUE" button
+[2025-08-21 12:57:41] INFO: ✅ Password entered
+[2025-08-21 12:57:42] INFO: ✅ Password entered
+[2025-08-21 12:57:42] INFO: ✅ Email entered
+[2025-08-21 12:57:43] INFO: ✅ Clicked on "CONTINUE" button
+[2025-08-21 12:57:43] INFO: ✅ Clicked on "CONTINUE" button
+[2025-08-21 12:57:45] INFO: ✅ Password entered
+[2025-08-21 12:57:46] INFO: ✅ Clicked on "CONTINUE" button
+[2025-08-21 12:58:19] ERROR: ❌ Permission handling failed: ❌ Step 8 Failed: Overlay permission - element ("android=new UiSelector().resourceId("android:id/switch_widget")") still not existing after 7000ms
+[2025-08-21 12:58:19] ERROR: ❌ Login test failed on 192.168.1.87:5555: ❌ Step 8 Failed: Overlay permission - element ("android=new UiSelector().resourceId("android:id/switch_widget")") still not existing after 7000ms
+[2025-08-21 12:58:30] INFO: ✅ All permissions handled successfully.
+[2025-08-21 13:37:38] INFO: 🚀 Starting test on device: 10BF1X20MY003KN
+[2025-08-21 13:37:38] INFO: 🔐 Using email: pulkit.soni@redvisionglobal.com
+[2025-08-21 13:37:43] INFO: ✅ Email entered
+[2025-08-21 13:37:46] INFO: ✅ Password entered
+[2025-08-21 13:37:47] INFO: ✅ Clicked on "CONTINUE" button
+[2025-08-21 13:38:23] ERROR: ❌ Permission handling failed: ❌ Step 8 Failed: Overlay permission - element ("android=new UiSelector().resourceId("android:id/switch_widget")") still not existing after 7000ms
+[2025-08-21 13:38:23] ERROR: ❌ Login test failed on 10BF1X20MY003KN: ❌ Step 8 Failed: Overlay permission - element ("android=new UiSelector().resourceId("android:id/switch_widget")") still not existing after 7000ms
+[2025-08-21 13:43:47] INFO: 🚀 Starting test on device: 10BF1X20MY003KN
+[2025-08-21 13:43:47] INFO: 🔐 Using email: pulkit.soni@redvisionglobal.com
+[2025-08-21 13:43:53] INFO: ✅ Email entered
+[2025-08-21 13:43:56] INFO: ✅ Password entered
+[2025-08-21 13:43:57] INFO: ✅ Clicked on "CONTINUE" button
+[2025-08-21 13:44:32] ERROR: ❌ Permission handling failed: ❌ Step 8 Failed: Overlay permission - element ("android=new UiSelector().resourceId("android:id/switch_widget")") still not existing after 7000ms
+[2025-08-21 13:44:32] ERROR: ❌ Login test failed on 10BF1X20MY003KN: ❌ Step 8 Failed: Overlay permission - element ("android=new UiSelector().resourceId("android:id/switch_widget")") still not existing after 7000ms
+[2025-08-21 15:21:18] INFO: 🚀 Starting test on device: 10BF1X20MY003KN
+[2025-08-21 15:21:18] INFO: 🔐 Using email: pulkit.soni@redvisionglobal.com
+[2025-08-21 15:21:24] INFO: ✅ Email entered
+[2025-08-21 15:21:27] INFO: ✅ Password entered
+[2025-08-21 15:21:29] INFO: ✅ Clicked on "CONTINUE" button
+[2025-08-21 15:22:12] INFO: ✅ All permissions handled successfully.
+[2025-08-21 15:22:15] INFO: ✅ Login test completed on 10BF1X20MY003KN
+[2025-08-21 15:40:23] INFO: 🚀 Starting test on device: 10BF1X20MY003KN
+[2025-08-21 15:40:23] INFO: 🔐 Using email: pulkit.soni@redvisionglobal.com
+[2025-08-21 15:40:24] INFO: 🚀 Starting test on device: l7ydgiirobfuypr8
+[2025-08-21 15:40:24] INFO: 🔐 Using email: swapnil.gupta@mailinator.com
+[2025-08-21 15:40:26] INFO: 🚀 Starting test on device: LJ4DPVWWGUAM6DQ8
+[2025-08-21 15:40:26] INFO: 🔐 Using email: test.reverification@mailinator.com
+[2025-08-21 15:40:29] INFO: ✅ Email entered
+[2025-08-21 15:40:31] INFO: ✅ Password entered
+[2025-08-21 15:40:31] INFO: ✅ Email entered
+[2025-08-21 15:40:32] INFO: ✅ Email entered
+[2025-08-21 15:40:32] INFO: ✅ Clicked on "CONTINUE" button
+[2025-08-21 15:40:33] INFO: ✅ Password entered
+[2025-08-21 15:40:34] INFO: ✅ Clicked on "CONTINUE" button
+[2025-08-21 15:40:34] INFO: ✅ Password entered
+[2025-08-21 15:40:35] INFO: ✅ Clicked on "CONTINUE" button
+[2025-08-21 15:41:15] INFO: ✅ All permissions handled successfully.
+[2025-08-21 15:41:17] ERROR: ❌ Permission handling failed: ❌ Step 8 Failed: Overlay permission - element ("android=new UiSelector().text("salesninjacrm")") still not existing after 10000ms
+[2025-08-21 15:41:17] ERROR: ❌ Login test failed on l7ydgiirobfuypr8: ❌ Step 8 Failed: Overlay permission - element ("android=new UiSelector().text("salesninjacrm")") still not existing after 10000ms
+[2025-08-21 15:41:18] INFO: ✅ Login test completed on 10BF1X20MY003KN
+[2025-08-21 15:41:20] ERROR: ❌ Permission handling failed: ❌ Step 8 Failed: Overlay permission - element ("android=new UiSelector().resourceId("com.android.settings:id/switchWidget")") still not existing after 12000ms
+[2025-08-21 15:41:20] ERROR: ❌ Login test failed on LJ4DPVWWGUAM6DQ8: ❌ Step 8 Failed: Overlay permission - element ("android=new UiSelector().resourceId("com.android.settings:id/switchWidget")") still not existing after 12000ms
+[2025-08-21 15:42:29] INFO: 🚀 Starting test on device: 10BF1X20MY003KN
+[2025-08-21 15:42:29] INFO: 🔐 Using email: pulkit.soni@redvisionglobal.com
+[2025-08-21 15:42:30] INFO: 🚀 Starting test on device: l7ydgiirobfuypr8
+[2025-08-21 15:42:30] INFO: 🔐 Using email: swapnil.gupta@mailinator.com
+[2025-08-21 15:42:31] INFO: 🚀 Starting test on device: LJ4DPVWWGUAM6DQ8
+[2025-08-21 15:42:31] INFO: 🔐 Using email: test.reverification@mailinator.com
+[2025-08-21 15:42:36] INFO: ✅ Email entered
+[2025-08-21 15:42:37] INFO: ✅ Email entered
+[2025-08-21 15:42:38] INFO: ✅ Email entered
+[2025-08-21 15:42:38] INFO: ✅ Password entered
+[2025-08-21 15:42:39] INFO: ✅ Clicked on "CONTINUE" button
+[2025-08-21 15:42:39] INFO: ✅ Password entered
+[2025-08-21 15:42:40] INFO: ✅ Password entered
+[2025-08-21 15:42:40] INFO: ✅ Clicked on "CONTINUE" button
+[2025-08-21 15:42:41] INFO: ✅ Clicked on "CONTINUE" button
+[2025-08-21 15:43:19] ERROR: ❌ Permission handling failed: ❌ Step 8 Failed: Overlay permission - element ("android=new UiSelector().resourceId("com.android.settings:id/switchWidget")") still not existing after 7000ms
+[2025-08-21 15:43:19] ERROR: ❌ Login test failed on LJ4DPVWWGUAM6DQ8: ❌ Step 8 Failed: Overlay permission - element ("android=new UiSelector().resourceId("com.android.settings:id/switchWidget")") still not existing after 7000ms
+[2025-08-21 15:43:22] INFO: ✅ All permissions handled successfully.
+[2025-08-21 15:43:23] ERROR: ❌ Permission handling failed: ❌ Step 8 Failed: Overlay permission - element ("android=new UiSelector().text("salesninjacrm")") still not existing after 10000ms
+[2025-08-21 15:43:23] ERROR: ❌ Login test failed on l7ydgiirobfuypr8: ❌ Step 8 Failed: Overlay permission - element ("android=new UiSelector().text("salesninjacrm")") still not existing after 10000ms
+[2025-08-21 15:43:25] INFO: ✅ Login test completed on 10BF1X20MY003KN
+[2025-08-21 16:20:34] INFO: 🚀 Starting test on device: 10BF1X20MY003KN
+[2025-08-21 16:20:34] INFO: 🔐 Using email: pulkit.soni@redvisionglobal.com
+[2025-08-21 16:20:35] INFO: 🚀 Starting test on device: LJ4DPVWWGUAM6DQ8
+[2025-08-21 16:20:35] INFO: 🔐 Using email: test.reverification@mailinator.com
+[2025-08-21 16:20:40] INFO: ✅ Email entered
+[2025-08-21 16:20:42] INFO: ✅ Email entered
+[2025-08-21 16:20:42] INFO: ✅ Password entered
+[2025-08-21 16:20:43] INFO: ✅ Clicked on "CONTINUE" button
+[2025-08-21 16:20:44] INFO: ✅ Password entered
+[2025-08-21 16:20:45] INFO: ✅ Clicked on "CONTINUE" button
+[2025-08-21 16:21:25] ERROR: ❌ Permission handling failed: ❌ Step 8 Failed: Overlay permission - element ("android=new UiSelector().resourceId("com.android.settings:id/switchWidget")") still not existing after 7000ms
+[2025-08-21 16:21:25] ERROR: ❌ Login test failed on LJ4DPVWWGUAM6DQ8: ❌ Step 8 Failed: Overlay permission - element ("android=new UiSelector().resourceId("com.android.settings:id/switchWidget")") still not existing after 7000ms
+[2025-08-21 16:21:28] INFO: ✅ All permissions handled successfully.
+[2025-08-21 16:21:31] INFO: ✅ Login test completed on 10BF1X20MY003KN
+[2025-08-21 16:25:22] INFO: 🚀 Starting test on device: 10BF1X20MY003KN
+[2025-08-21 16:25:22] INFO: 🔐 Using email: pulkit.soni@redvisionglobal.com
+[2025-08-21 16:25:23] INFO: 🚀 Starting test on device: LJ4DPVWWGUAM6DQ8
+[2025-08-21 16:25:23] INFO: 🔐 Using email: test.reverification@mailinator.com
+[2025-08-21 16:25:28] INFO: ✅ Email entered
+[2025-08-21 16:25:30] INFO: ✅ Email entered
+[2025-08-21 16:25:30] INFO: ✅ Password entered
+[2025-08-21 16:25:31] INFO: ✅ Clicked on "CONTINUE" button
+[2025-08-21 16:25:32] INFO: ✅ Password entered
+[2025-08-21 16:25:33] INFO: ✅ Clicked on "CONTINUE" button
+[2025-08-21 16:26:11] ERROR: ❌ Permission handling failed: ❌ Step 8 Failed: Overlay permission - element ("android=new UiSelector().resourceId("com.android.settings:id/switchWidget")") still not existing after 7000ms
+[2025-08-21 16:26:11] ERROR: ❌ Login test failed on LJ4DPVWWGUAM6DQ8: ❌ Step 8 Failed: Overlay permission - element ("android=new UiSelector().resourceId("com.android.settings:id/switchWidget")") still not existing after 7000ms
+[2025-08-21 16:26:15] INFO: ✅ All permissions handled successfully.
+[2025-08-21 16:26:18] INFO: ✅ Login test completed on 10BF1X20MY003KN
+[2025-08-21 16:54:44] INFO: 🚀 Starting test on device: 10BF1X20MY003KN
+[2025-08-21 16:54:44] INFO: 🔐 Using email: pulkit.soni@redvisionglobal.com
+[2025-08-21 16:54:46] INFO: 🚀 Starting test on device: LJ4DPVWWGUAM6DQ8
+[2025-08-21 16:54:46] INFO: 🔐 Using email: test.reverification@mailinator.com
+[2025-08-21 16:54:50] INFO: ✅ Email entered
+[2025-08-21 16:54:52] INFO: ✅ Password entered
+[2025-08-21 16:54:53] INFO: ✅ Email entered
+[2025-08-21 16:54:53] INFO: ✅ Clicked on "CONTINUE" button
+[2025-08-21 16:54:55] INFO: ✅ Password entered
+[2025-08-21 16:54:56] INFO: ✅ Clicked on "CONTINUE" button
+[2025-08-21 16:55:37] ERROR: ❌ Permission handling failed: ❌ Step 8 Failed: Overlay permission - element ("android=new UiSelector().text("salesninjacrm")") still not existing after 10000ms
+[2025-08-21 16:55:37] ERROR: ❌ Login test failed on LJ4DPVWWGUAM6DQ8: ❌ Step 8 Failed: Overlay permission - element ("android=new UiSelector().text("salesninjacrm")") still not existing after 10000ms
+[2025-08-21 16:55:37] INFO: ✅ All permissions handled successfully.
+[2025-08-21 16:55:40] INFO: ✅ Login test completed on 10BF1X20MY003KN
+[2025-08-21 17:01:30] INFO: 🚀 Starting test on device: 10BF1X20MY003KN
+[2025-08-21 17:01:30] INFO: 🔐 Using email: pulkit.soni@redvisionglobal.com
+[2025-08-21 17:01:32] INFO: 🚀 Starting test on device: LJ4DPVWWGUAM6DQ8
+[2025-08-21 17:01:32] INFO: 🔐 Using email: test.reverification@mailinator.com
+[2025-08-21 17:01:36] INFO: ✅ Email entered
+[2025-08-21 17:01:39] INFO: ✅ Email entered
+[2025-08-21 17:01:39] INFO: ✅ Password entered
+[2025-08-21 17:01:39] INFO: ✅ Clicked on "CONTINUE" button
+[2025-08-21 17:01:41] INFO: ✅ Password entered
+[2025-08-21 17:01:42] INFO: ✅ Clicked on "CONTINUE" button
+[2025-08-21 17:01:57] ERROR: ❌ Permission handling failed: ❌ Step 5 Failed: Media audio - element ("android=new UiSelector().resourceId("com.android.permissioncontroller:id/permission_allow_button")") still not existing after 5000ms
+[2025-08-21 17:01:57] ERROR: ❌ Login test failed on LJ4DPVWWGUAM6DQ8: ❌ Step 5 Failed: Media audio - element ("android=new UiSelector().resourceId("com.android.permissioncontroller:id/permission_allow_button")") still not existing after 5000ms
+[2025-08-21 17:02:23] INFO: ✅ All permissions handled successfully.
+[2025-08-21 17:02:26] INFO: ✅ Login test completed on 10BF1X20MY003KN
+[2025-08-21 17:02:57] INFO: 🚀 Starting test on device: 10BF1X20MY003KN
+[2025-08-21 17:02:57] INFO: 🔐 Using email: pulkit.soni@redvisionglobal.com
+[2025-08-21 17:02:58] INFO: 🚀 Starting test on device: LJ4DPVWWGUAM6DQ8
+[2025-08-21 17:02:58] INFO: 🔐 Using email: test.reverification@mailinator.com
+[2025-08-21 17:03:03] INFO: ✅ Email entered
+[2025-08-21 17:03:05] INFO: ✅ Email entered
+[2025-08-21 17:03:06] INFO: ✅ Password entered
+[2025-08-21 17:03:07] INFO: ✅ Clicked on "CONTINUE" button
+[2025-08-21 17:03:07] INFO: ✅ Password entered
+[2025-08-21 17:03:08] INFO: ✅ Clicked on "CONTINUE" button
+[2025-08-21 17:03:23] ERROR: ❌ Permission handling failed: ❌ Step 5 Failed: Media audio - element ("android=new UiSelector().resourceId("com.android.permissioncontroller:id/permission_allow_button")") still not existing after 5000ms
+[2025-08-21 17:03:23] ERROR: ❌ Login test failed on LJ4DPVWWGUAM6DQ8: ❌ Step 5 Failed: Media audio - element ("android=new UiSelector().resourceId("com.android.permissioncontroller:id/permission_allow_button")") still not existing after 5000ms
+[2025-08-21 17:03:51] INFO: ✅ All permissions handled successfully.
+[2025-08-21 17:03:54] INFO: ✅ Login test completed on 10BF1X20MY003KN
+[2025-08-21 17:23:01] INFO: 🚀 Starting test on device: 10BF1X20MY003KN
+[2025-08-21 17:23:01] INFO: 🔐 Using email: pulkit.soni@redvisionglobal.com
+[2025-08-21 17:23:07] INFO: 🚀 Starting test on device: LJ4DPVWWGUAM6DQ8
+[2025-08-21 17:23:07] INFO: 🔐 Using email: test.reverification@mailinator.com
+[2025-08-21 17:23:07] INFO: ✅ Email entered
+[2025-08-21 17:23:12] INFO: ✅ Password entered
+[2025-08-21 17:23:13] INFO: ✅ Clicked on "CONTINUE" button
+[2025-08-21 17:23:14] INFO: ✅ Email entered
+[2025-08-21 17:23:16] INFO: ✅ Password entered
+[2025-08-21 17:23:17] INFO: ✅ Clicked on "CONTINUE" button
+[2025-08-21 17:23:32] ERROR: ❌ Permission handling failed: ❌ Step 5 Failed: Media audio - element ("android=new UiSelector().resourceId("com.android.permissioncontroller:id/permission_allow_button")") still not existing after 5000ms
+[2025-08-21 17:23:32] ERROR: ❌ Login test failed on LJ4DPVWWGUAM6DQ8: ❌ Step 5 Failed: Media audio - element ("android=new UiSelector().resourceId("com.android.permissioncontroller:id/permission_allow_button")") still not existing after 5000ms
+[2025-08-21 17:23:57] INFO: ✅ All permissions handled successfully.
+[2025-08-21 17:24:00] INFO: ✅ Login test completed on 10BF1X20MY003KN
+[2025-08-21 17:25:02] INFO: 🚀 Starting test on device: 10BF1X20MY003KN
+[2025-08-21 17:25:02] INFO: 🔐 Using email: pulkit.soni@redvisionglobal.com
+[2025-08-21 17:25:04] INFO: 🚀 Starting test on device: LJ4DPVWWGUAM6DQ8
+[2025-08-21 17:25:04] INFO: 🔐 Using email: test.reverification@mailinator.com
+[2025-08-21 17:25:09] INFO: ✅ Email entered
+[2025-08-21 17:25:11] INFO: ✅ Email entered
+[2025-08-21 17:25:11] INFO: ✅ Password entered
+[2025-08-21 17:25:12] INFO: ✅ Password entered
+[2025-08-21 17:25:13] INFO: ✅ Clicked on "CONTINUE" button
+[2025-08-21 17:25:13] INFO: ✅ Clicked on "CONTINUE" button
+[2025-08-21 17:25:49] ERROR: ❌ Permission handling failed: ❌ Step 8 Failed: Overlay permission - element ("android=new UiSelector().resourceId("android:id/switch_widget")") still not existing after 7000ms
+[2025-08-21 17:25:49] ERROR: ❌ Login test failed on 10BF1X20MY003KN: ❌ Step 8 Failed: Overlay permission - element ("android=new UiSelector().resourceId("android:id/switch_widget")") still not existing after 7000ms
+[2025-08-21 17:25:58] INFO: ✅ All permissions handled successfully.
+[2025-08-21 17:26:01] INFO: ✅ Login test completed on LJ4DPVWWGUAM6DQ8
+[2025-08-21 17:29:48] INFO: 🚀 Starting test on device: 10BF1X20MY003KN
+[2025-08-21 17:29:48] INFO: 🔐 Using email: pulkit.soni@redvisionglobal.com
+[2025-08-21 17:29:50] INFO: 🚀 Starting test on device: LJ4DPVWWGUAM6DQ8
+[2025-08-21 17:29:50] INFO: 🔐 Using email: test.reverification@mailinator.com
+[2025-08-21 17:29:54] INFO: ✅ Email entered
+[2025-08-21 17:29:56] INFO: ✅ Password entered
+[2025-08-21 17:29:57] INFO: ✅ Email entered
+[2025-08-21 17:29:57] INFO: ✅ Clicked on "CONTINUE" button
+[2025-08-21 17:30:00] INFO: ✅ Password entered
+[2025-08-21 17:30:01] INFO: ✅ Clicked on "CONTINUE" button
+[2025-08-21 17:30:15] ERROR: ❌ Permission handling failed: ❌ Step 5 Failed: Media audio - element ("android=new UiSelector().resourceId("com.android.permissioncontroller:id/permission_allow_button")") still not existing after 5000ms
+[2025-08-21 17:30:15] ERROR: ❌ Login test failed on LJ4DPVWWGUAM6DQ8: ❌ Step 5 Failed: Media audio - element ("android=new UiSelector().resourceId("com.android.permissioncontroller:id/permission_allow_button")") still not existing after 5000ms
+[2025-08-21 17:30:40] INFO: ✅ All permissions handled successfully.
+[2025-08-21 17:30:43] INFO: ✅ Login test completed on 10BF1X20MY003KN
+[2025-08-21 18:03:25] INFO: 🚀 Starting test on device: 192.168.1.87:5555
+[2025-08-21 18:03:25] INFO: 🔐 Using email: pulkit.soni@redvisionglobal.com
+[2025-08-21 18:03:28] INFO: 🚀 Starting test on device: 192.168.1.135:5555
+[2025-08-21 18:03:28] INFO: 🔐 Using email: swapnil.gupta@mailinator.com
+[2025-08-21 18:03:35] ERROR: ❌ Login test failed on 192.168.1.87:5555: element ("//android.widget.EditText[@text="Email address"]") still not displayed after 10000ms
+[2025-08-21 18:03:36] INFO: ✅ Email entered
+[2025-08-21 18:03:39] INFO: ✅ Password entered
+[2025-08-21 18:03:41] INFO: ✅ Clicked on "CONTINUE" button
+[2025-08-21 18:06:50] INFO: 🚀 Starting test on device: 192.168.1.87:5555
+[2025-08-21 18:06:50] INFO: 🔐 Using email: pulkit.soni@redvisionglobal.com
+[2025-08-21 18:06:52] INFO: 🚀 Starting test on device: 192.168.1.135:5555
+[2025-08-21 18:06:52] INFO: 🔐 Using email: swapnil.gupta@mailinator.com
+[2025-08-21 18:06:57] INFO: ✅ Email entered
+[2025-08-21 18:06:59] INFO: ✅ Email entered
+[2025-08-21 18:07:00] INFO: ✅ Password entered
+[2025-08-21 18:07:01] INFO: ✅ Clicked on "CONTINUE" button
+[2025-08-21 18:07:02] INFO: ✅ Password entered
+[2025-08-21 18:07:03] INFO: ✅ Clicked on "CONTINUE" button
+[2025-08-21 18:07:48] INFO: ✅ All permissions handled successfully.
+[2025-08-21 18:07:48] ERROR: ❌ Permission handling failed: ❌ Step 8 Failed: Overlay permission - element ("android=new UiSelector().text("salesninjacrm")") still not existing after 10000ms
+[2025-08-21 18:07:48] ERROR: ❌ Login test failed on 192.168.1.135:5555: ❌ Step 8 Failed: Overlay permission - element ("android=new UiSelector().text("salesninjacrm")") still not existing after 10000ms
+[2025-08-21 18:07:51] INFO: ✅ Login test completed on 192.168.1.87:5555
+[2025-08-21 18:17:54] INFO: 🚀 Starting test on device: 192.168.1.135:5555
+[2025-08-21 18:17:54] INFO: 🔐 Using email: swapnil.gupta@mailinator.com
+[2025-08-21 18:17:55] INFO: 🚀 Starting test on device: 192.168.1.87:5555
+[2025-08-21 18:17:55] INFO: 🔐 Using email: pulkit.soni@redvisionglobal.com
+[2025-08-21 18:18:02] INFO: ✅ Email entered
+[2025-08-21 18:18:03] INFO: ✅ Email entered
+[2025-08-21 18:18:06] INFO: ✅ Password entered
+[2025-08-21 18:18:06] INFO: ✅ Password entered
+[2025-08-21 18:18:07] INFO: ✅ Clicked on "CONTINUE" button
+[2025-08-21 18:18:07] INFO: ✅ Clicked on "CONTINUE" button
+[2025-08-25 12:19:31] INFO: 🚀 Starting test on device: 192.168.1.6:5555
+[2025-08-25 12:19:31] INFO: 🔐 Using email: swapnil.gupta@mailinator.com
+[2025-08-25 12:19:38] INFO: ✅ Email entered
+[2025-08-25 12:19:41] INFO: ✅ Password entered
+[2025-08-25 12:19:42] INFO: ✅ Clicked on "CONTINUE" button
+[2025-08-25 12:31:03] INFO: 🚀 Starting test on device: 192.168.1.6:5555
+[2025-08-25 12:31:03] INFO: 🔐 Using email: swapnil.gupta@mailinator.com
+[2025-08-25 12:31:11] INFO: ✅ Email entered
+[2025-08-25 12:31:14] INFO: ✅ Password entered
+[2025-08-25 12:31:15] INFO: ✅ Clicked on "CONTINUE" button
+[2025-08-25 12:31:20] INFO: 🚀 Starting test on device: 192.168.1.102:5555
+[2025-08-25 12:31:20] INFO: 🔐 Using email: test.reverification@mailinator.com
+[2025-08-25 12:31:24] INFO: ✅ Email entered
+[2025-08-25 12:31:26] INFO: ✅ Password entered
+[2025-08-25 12:31:27] INFO: ✅ Clicked on "CONTINUE" button
+[2025-08-25 12:31:59] ERROR: ❌ Permission handling failed: ❌ Step 8 Failed: Overlay permission - element ("android=new UiSelector().text("salesninjacrm")") still not existing after 10000ms
+[2025-08-25 12:31:59] ERROR: ❌ Login test failed on 192.168.1.6:5555: ❌ Step 8 Failed: Overlay permission - element ("android=new UiSelector().text("salesninjacrm")") still not existing after 10000ms
+[2025-08-25 12:32:12] INFO: ✅ All permissions handled successfully.
+[2025-08-25 12:32:15] INFO: ✅ Login test completed on 192.168.1.102:5555
+[2025-08-25 12:56:29] INFO: 🚀 Starting test on device: 192.168.1.6:5555
+[2025-08-25 12:56:29] INFO: 🔐 Using email: swapnil.gupta@mailinator.com
+[2025-08-25 12:56:29] INFO: 🚀 Starting test on device: 192.168.1.102:5555
+[2025-08-25 12:56:29] INFO: 🔐 Using email: test.reverification@mailinator.com
+[2025-08-25 12:56:36] INFO: ✅ Email entered
+[2025-08-25 12:56:36] INFO: ✅ Email entered
+[2025-08-25 12:56:39] INFO: ✅ Password entered
+[2025-08-25 12:56:39] INFO: ✅ Password entered
+[2025-08-25 12:56:40] INFO: ✅ Clicked on "CONTINUE" button
+[2025-08-25 12:56:42] INFO: ✅ Clicked on "CONTINUE" button
+[2025-08-25 13:03:07] INFO: 🚀 Starting test on device: 192.168.1.6:5555
+[2025-08-25 13:03:07] INFO: 🔐 Using email: swapnil.gupta@mailinator.com
+[2025-08-25 13:03:08] INFO: 🚀 Starting test on device: 192.168.1.102:5555
+[2025-08-25 13:03:08] INFO: 🔐 Using email: test.reverification@mailinator.com
+[2025-08-25 13:03:13] INFO: ✅ Email entered
+[2025-08-25 13:03:16] INFO: ✅ Email entered
+[2025-08-25 13:03:16] INFO: ✅ Password entered
+[2025-08-25 13:03:18] INFO: ✅ Clicked on "CONTINUE" button
+[2025-08-25 13:03:18] INFO: ✅ Password entered
+[2025-08-25 13:03:19] INFO: ✅ Clicked on "CONTINUE" button
+[2025-08-25 13:04:05] ERROR: ❌ Permission handling failed: ❌ Step 8 Failed: Overlay permission - element ("android=new UiSelector().text("salesninjacrm")") still not existing after 10000ms
+[2025-08-25 13:04:05] ERROR: ❌ Login test failed on 192.168.1.6:5555: ❌ Step 8 Failed: Overlay permission - element ("android=new UiSelector().text("salesninjacrm")") still not existing after 10000ms
+[2025-08-25 13:04:07] INFO: ✅ All permissions handled successfully.
+[2025-08-25 13:15:01] INFO: 🚀 Starting test on device: 192.168.1.6:5555
+[2025-08-25 13:15:01] INFO: 🔐 Using email: swapnil.gupta@mailinator.com
+[2025-08-25 13:15:06] INFO: 🚀 Starting test on device: 192.168.1.102:5555
+[2025-08-25 13:15:06] INFO: 🔐 Using email: test.reverification@mailinator.com
+[2025-08-25 13:15:13] INFO: ✅ Email entered
+[2025-08-25 13:15:14] INFO: ✅ Email entered
+[2025-08-25 13:15:16] INFO: ✅ Password entered
+[2025-08-25 13:15:17] INFO: ✅ Password entered
+[2025-08-25 13:15:18] INFO: ✅ Clicked on "CONTINUE" button
+[2025-08-25 13:15:20] INFO: ✅ Clicked on "CONTINUE" button
+[2025-08-25 13:15:48] ERROR: ❌ Permission handling failed: ❌ Step 6 Failed: Folder access permission - element ("//android.widget.Button[@resource-id="android:id/button1" and @text="USE THIS FOLDER"]") still not existing after 10000ms
+[2025-08-25 13:15:48] ERROR: ❌ Login test failed on 192.168.1.102:5555: ❌ Step 6 Failed: Folder access permission - element ("//android.widget.Button[@resource-id="android:id/button1" and @text="USE THIS FOLDER"]") still not existing after 10000ms
+[2025-08-25 13:26:33] INFO: 🚀 Starting test on device: 192.168.1.6:5555
+[2025-08-25 13:26:33] INFO: 🔐 Using email: swapnil.gupta@mailinator.com
+[2025-08-25 13:26:40] INFO: ✅ Email entered
+[2025-08-25 13:26:43] INFO: ✅ Password entered
+[2025-08-25 13:26:44] INFO: 🚀 Starting test on device: 192.168.1.102:5555
+[2025-08-25 13:26:44] INFO: 🔐 Using email: test.reverification@mailinator.com
+[2025-08-25 13:26:45] INFO: ✅ Clicked on "CONTINUE" button
+[2025-08-25 13:26:50] INFO: ✅ Email entered
+[2025-08-25 13:26:53] INFO: ✅ Password entered
+[2025-08-25 13:26:54] INFO: ✅ Clicked on "CONTINUE" button
+[2025-08-25 13:27:34] ERROR: ❌ Permission handling failed: ❌ Step 9 Failed: HomePage not found - A sessionId is required for this command
+[2025-08-25 13:27:34] ERROR: ❌ Login test failed on 192.168.1.6:5555: ❌ Step 9 Failed: HomePage not found - A sessionId is required for this command
+[2025-08-25 13:27:42] INFO: ✅ All permissions handled successfully.
+[2025-08-25 13:41:56] INFO: 🚀 Starting test on device: 192.168.1.6:5555
+[2025-08-25 13:41:56] INFO: 🔐 Using email: swapnil.gupta@mailinator.com
+[2025-08-25 13:42:03] INFO: ✅ Email entered
+[2025-08-25 13:42:07] INFO: ✅ Password entered
+[2025-08-25 13:42:09] INFO: ✅ Clicked on "CONTINUE" button
+[2025-08-25 13:42:52] ERROR: ❌ Permission handling failed: ❌ Step 8 Failed: Overlay permission - element ("android=new UiSelector().text("salesninjacrm")") still not existing after 10000ms
+[2025-08-25 13:42:52] ERROR: ❌ Login test failed on 192.168.1.6:5555: ❌ Step 8 Failed: Overlay permission - element ("android=new UiSelector().text("salesninjacrm")") still not existing after 10000ms
+[2025-09-10 11:32:16] INFO: 🚀 Starting test on device: 10BF1X20MY003KN
+[2025-09-10 11:32:16] INFO: 🔐 Using email: pulkit.soni@redvisionglobal.com
+[2025-09-10 11:32:21] INFO: ✅ Email entered
+[2025-09-10 11:32:23] INFO: ✅ Password entered
+[2025-09-10 11:32:24] INFO: ✅ Clicked on "CONTINUE" button
+[2025-09-10 11:33:07] INFO: ✅ All permissions handled successfully.
+[2025-09-10 11:33:10] INFO: ✅ Login test completed on 10BF1X20MY003KN
+[2025-09-10 11:50:24] ERROR: ❌ No login data found for device: 192.168.1.34:5555
+[2025-09-10 11:51:33] INFO: 🚀 Starting test on device: 192.168.1.34:5555
+[2025-09-10 11:51:33] INFO: 🔐 Using email: pulkit.soni@redvisionglobal.com
+[2025-09-10 11:51:36] ERROR: ❌ Login test failed on 192.168.1.34:5555: WebDriverError: A session is either terminated or not started when running "element" with method "POST" and args "{"using":"xpath","value":"//android.widget.EditText[@text=\"Email address\"]"}"
+[2025-09-10 11:52:08] INFO: 🚀 Starting test on device: 192.168.1.144:5555
+[2025-09-10 11:52:08] INFO: 🔐 Using email: swapnil.gupta@redvisionglobal.com
+[2025-09-10 11:52:12] INFO: ✅ Email entered
+[2025-09-10 11:52:15] INFO: ✅ Password entered
+[2025-09-10 11:52:16] INFO: ✅ Clicked on "CONTINUE" button
+[2025-09-10 11:52:21] ERROR: ❌ Permission handling failed: ❌ Step 1 Failed: Call history - element ("~ALLOW ACCESS") still not existing after 5000ms
+[2025-09-10 11:52:21] ERROR: ❌ Login test failed on 192.168.1.144:5555: ❌ Step 1 Failed: Call history - element ("~ALLOW ACCESS") still not existing after 5000ms
+[2025-09-10 11:53:15] INFO: 🚀 Starting test on device: 10BF1X20MY003KN
+[2025-09-10 11:53:15] INFO: 🔐 Using email: pulkit.soni@redvisionglobal.com
+[2025-09-10 11:53:16] INFO: 🚀 Starting test on device: J7GM659P9LU4EY6D
+[2025-09-10 11:53:16] INFO: 🔐 Using email: swapnil.gupta@redvisionglobal.com
+[2025-09-10 11:53:20] INFO: ✅ Email entered
+[2025-09-10 11:53:23] INFO: ✅ Password entered
+[2025-09-10 11:53:23] INFO: ✅ Email entered
+[2025-09-10 11:53:23] INFO: ✅ Clicked on "CONTINUE" button
+[2025-09-10 11:53:25] INFO: ✅ Password entered
+[2025-09-10 11:53:27] INFO: ✅ Clicked on "CONTINUE" button
+[2025-09-10 11:53:32] ERROR: ❌ Permission handling failed: ❌ Step 1 Failed: Call history - element ("~ALLOW ACCESS") still not existing after 5000ms
+[2025-09-10 11:53:32] ERROR: ❌ Login test failed on J7GM659P9LU4EY6D: ❌ Step 1 Failed: Call history - element ("~ALLOW ACCESS") still not existing after 5000ms
+[2025-09-10 11:54:05] INFO: ✅ All permissions handled successfully.
+[2025-09-10 11:54:08] INFO: ✅ Login test completed on 10BF1X20MY003KN
+[2025-09-10 12:01:20] INFO: 🚀 Starting test on device: J7GM659P9LU4EY6D
+[2025-09-10 12:01:20] INFO: 🔐 Using email: swapnil_red@mailinator.com
+[2025-09-10 12:01:27] INFO: ✅ Email entered
+[2025-09-10 12:01:29] INFO: ✅ Password entered
+[2025-09-10 12:01:30] INFO: ✅ Clicked on "CONTINUE" button
+[2025-09-10 12:02:21] ERROR: ❌ Permission handling failed: ❌ Step 9 Failed: HomePage not found - WebDriverError: Request failed with error code UND_ERR_DESTROYED when running "element" with method "POST" and args "{"using":"-android uiautomator","value":"new UiSelector().text(\"Home\")"}"
+[2025-09-10 12:02:21] ERROR: ❌ Login test failed on J7GM659P9LU4EY6D: ❌ Step 9 Failed: HomePage not found - WebDriverError: Request failed with error code UND_ERR_DESTROYED when running "element" with method "POST" and args "{"using":"-android uiautomator","value":"new UiSelector().text(\"Home\")"}"
+[2025-09-10 15:29:04] INFO: 🚀 Starting test on device: J7GM659P9LU4EY6D
+[2025-09-10 15:29:04] INFO: 🔐 Using email: swapnil.gupta@redvisionglobal.com
+[2025-09-10 15:29:11] INFO: ✅ Email entered
+[2025-09-10 15:29:14] INFO: ✅ Password entered
+[2025-09-10 15:29:15] INFO: ✅ Clicked on "CONTINUE" button
+[2025-09-10 15:30:00] INFO: ✅ All permissions handled successfully.
+[2025-09-10 15:30:03] INFO: ✅ Login test completed on J7GM659P9LU4EY6D

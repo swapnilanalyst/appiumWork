@@ -171,3 +171,16 @@ adb -s <deviceId> shell pm clear <package_name>
 - Useful for multi-device setups via WiFi for Appium.
 
 ---
+uiautomator clear command (-s 192.168.1.134:5555, sample device id)
+adb -s 192.168.1.134:5555 uninstall io.appium.uiautomator2.server     
+adb -s 192.168.1.134:5555 uninstall io.appium.uiautomator2.server.test
+adb -s 10BF1X20MY003KN uninstall io.appium.uiautomator2.server  
+adb -s LJ4DPVWWGUAM6DQ8 uninstall io.appium.uiautomator2.server  
+adb -s 10BF1X20MY003KN uninstall io.appium.uiautomator2.server.test
+adb -s LJ4DPVWWGUAM6DQ8 uninstall io.appium.uiautomator2.server.test
+
+To check Android version- for attached all devices.
+PS C:\Users\REDVision\Desktop\appium-js-tests> foreach ($device in (adb devices | Select-String "device$" | ForEach-Object { ($_ -split "\s+")[0] })) {
+>>     $version = adb -s $device shell getprop ro.build.version.release
+>>     Write-Host "$device : Android $version"
+>> }

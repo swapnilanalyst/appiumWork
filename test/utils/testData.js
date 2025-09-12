@@ -35,20 +35,24 @@ module.exports = {
     email: 'manisha.sahu@redvisionglobal.com',
     password: 'Redv@123',
   },
+   'kfxo4ttwqkw4vox8': {
+    email: 'nancy.rathore@redvisionglobal.com',
+    password: 'Redv@123',
+  },
   // Support for IP-connected device (map IP to internal ID or email)
-  '192.168.1.142:5555': {
+  '192.168.1.144:5555': {
     email: 'swapnil.gupta@redvisionglobal.com',
     password: '12345',
   },
-  '192.168.1.165:5555': {
+  '192.168.1.34:5555': {
     email: 'pulkit.soni@redvisionglobal.com',
     password: 'Redv@123',
   },
-  '192.168.1.134:5555': {
+  '192.168.1.6:5555': {
     email: 'swapnil.gupta@mailinator.com',
     password: 'Redv@123',
   },
-  '192.168.1.153:5555': {
+  '192.168.1.102:5555': {
     email: 'test.reverification@mailinator.com',
     password: 'Redv@123',
   },

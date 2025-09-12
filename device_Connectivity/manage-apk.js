@@ -2,7 +2,7 @@ const { execSync } = require('child_process');
 const path = require('path');
 
 const packageName = 'com.salesninjacrm'; // 👈 your app package
-const apkPath = path.resolve(__dirname, '../apps/snc_live_35_version.apk');   // 👈 APK path
+const apkPath = path.resolve(__dirname, '../apps/dev_16_july.apk');   // 👈 APK path
 
 // Get devices dynamically
 function getConnectedDevices() {
