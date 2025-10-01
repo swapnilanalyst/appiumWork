@@ -67,7 +67,7 @@ class HomePage {
 
     } catch (error) {
       // --- AGAR POPUP NAHI MILA TO SIRF HOME SCREEN VERIFY HOGI ---
-      logger.info("ℹ️ Update popup nahi tha. Seedha Home screen ko verify kiya ja raha hai.");
+      logger.info("ℹ️ There is no update popup, Redirected to HomeScreen.");
       await this.verifyHomePageIsDisplayed();
     }
   }
