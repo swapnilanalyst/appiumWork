@@ -184,3 +184,11 @@ PS C:\Users\REDVision\Desktop\appium-js-tests> foreach ($device in (adb devices 
 >>     $version = adb -s $device shell getprop ro.build.version.release
 >>     Write-Host "$device : Android $version"
 >> }
+
+Commands according to current structure
+
+node startAppiumServers.js                                  //start server for connected devices
+
+npx wdio run wdio.conf.js                                  //this is runnerfile which we run to execute our target file.
+
+node ./device_Connectivity/manage-apk.js --uninstall       // --install / --uninstall / --both / --clear / --restricted 
